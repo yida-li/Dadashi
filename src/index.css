@@ -29,12 +29,20 @@ input {
   width: 120px;
 }
 #main {
-  width: 100%;
+  width: 1366px;
   height: 768px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./images/banner.png');
+}
+#main2 {
+  width: 1230px;
+  height: 803px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/steal1.PNG');
 }
 nav {
   display: flex;

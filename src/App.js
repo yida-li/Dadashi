@@ -4,6 +4,11 @@ import Navbar from './components/Navbar';
 import  PropagateLoader from 'react-spinners/PropagateLoader';
 import { MoonLoader, PulseLoader, PuffLoader } from 'react-spinners';
 import { css, jsx } from '@emotion/react'
+import Header from './components/Header';
+import Products from './components/Products';
+import About from './components/About';
+import Contacts from './components/Contacts';
+
 function App() {
   
   const[loading,setLoading] = useState(false);
@@ -41,9 +46,13 @@ function App() {
         
 
        :
-      
+      <>
       <Navbar/>
-        
+     <Header/>
+     <Products/>
+     <About/>
+     <Contacts/>
+        </>
     }
     </div>
   ); 

@@ -29,7 +29,7 @@ export default function Navbar() {
 
     return (
         <nav className={nav ? "nav active" :"nav"}>
-            <Link to='main' className='logo'>
+            <Link to='main' className='logo'smooth={true} duration={2000}>
                 <img src={logo} alt=''/>
               
             </Link>
@@ -38,11 +38,11 @@ export default function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><Link to ="#"> Reservation <Button>cheese</Button></Link></li>
-                <li><Link to ="#"> Ingredients </Link></li>
-                <li><Link to ="#"> Cooks </Link></li>
-                <li><Link to ="#"> Recipe </Link></li>
-                <li><Link to ="#"> Drinks </Link></li>
+                <li><Link to ="main" smooth={true} duration={2000}> Header  </Link></li>
+                <li><Link to ="products"smooth={true} duration={2000}> Products </Link></li>
+                <li><Link to ="about"smooth={true} duration={2000}> About</Link></li>
+                <li><Link to ="contact"smooth={true} duration={2000}> Contact </Link></li>
+                <li><Link to ="drink"smooth={true} duration={2000}> Drinks </Link></li>
             </ul>
            
 
