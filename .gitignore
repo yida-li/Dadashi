@@ -29,3 +29,5 @@ yarn-error.log*
 
 # confidential client list
 client-list.txt
+# Local Netlify folder
+.netlify

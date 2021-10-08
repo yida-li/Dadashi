@@ -6,9 +6,11 @@ import { MoonLoader, PulseLoader, PuffLoader } from 'react-spinners';
 import { css, jsx } from '@emotion/react'
 import Header from './components/Header';
 import Products from './components/Products';
+import Productss from './components/Products';
 import About from './components/About';
 import Contacts from './components/Contacts';
-
+import Drinks from './components/Drinks';
+import Snacks from './components/Snacks';
 function App() {
   
   const[loading,setLoading] = useState(false);
@@ -50,6 +52,8 @@ function App() {
       <Navbar/>
      <Header/>
      <Products/>
+     <Drinks/>
+     <Snacks/>
      <About/>
      <Contacts/>
         </>
