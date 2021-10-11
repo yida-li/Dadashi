@@ -5,7 +5,7 @@ import pimage2 from '../images/drink2.png'
 
 export default function Drinks() {
     return (
-        <div id= 'products'>
+        <div id= 'drinks'>
             <h1>Choose a Drink</h1>
         <div className='a-container'>
         <DrinkBox image={pimage1} title="CrayCray"/>

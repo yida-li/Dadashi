@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Header() {
+export default function Ender() {
     return (
-        <div id= 'main'>
+        <div id= 'main3'>
             <div className='header-heading'>
 
     

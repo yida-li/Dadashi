@@ -5,12 +5,17 @@ import  PropagateLoader from 'react-spinners/PropagateLoader';
 import { MoonLoader, PulseLoader, PuffLoader } from 'react-spinners';
 import { css, jsx } from '@emotion/react'
 import Header from './components/Header';
+import HeaderMore from './components/HeaderMore';
+
 import Products from './components/Products';
-import Productss from './components/Products';
+
 import About from './components/About';
-import Contacts from './components/Contacts';
+
 import Drinks from './components/Drinks';
 import Snacks from './components/Snacks';
+import Ender from './components/Ender';
+
+
 function App() {
   
   const[loading,setLoading] = useState(false);
@@ -49,13 +54,17 @@ function App() {
 
        :
       <>
+      
       <Navbar/>
-     <Header/>
+     
+     <Header/> <HeaderMore/>
      <Products/>
      <Drinks/>
      <Snacks/>
-     <About/>
-     <Contacts/>
+  
+     <Ender/>
+      <About/>
+    
         </>
     }
     </div>

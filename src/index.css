@@ -34,15 +34,23 @@ input {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./images/banner.png');
+  background-image: url('./images/front.jpg');
 }
 #main2 {
-  width: 1230px;
+  width: 1366px;
   height: 803px;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./images/steal1.PNG');
+  background-image: url('./images/back.jpg');
+}
+#main3 {
+  width: 1366px;
+  height: 803px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/backback.jpg');
 }
 nav {
   display: flex;

@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import { Button, Link } from 'react-scroll';
-import logo from '../images/dadashi.png';
+
 import styled from '@emotion/styled'
 export default function Navbar() {
 
@@ -29,20 +29,19 @@ export default function Navbar() {
 
     return (
         <nav className={nav ? "nav active" :"nav"}>
-            <Link to='main' className='logo'smooth={true} duration={2000}>
-                <img src={logo} alt=''/>
-              
-            </Link>
+
             <input className='menu-btn' type='checkbox'id='menu-btn'/>
             <label className='menu-icon' for ='menu-btn'>
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
                 <li><Link to ="main" smooth={true} duration={2000}> Header  </Link></li>
-                <li><Link to ="products"smooth={true} duration={2000}> Products </Link></li>
-                <li><Link to ="about"smooth={true} duration={2000}> About</Link></li>
+                <li><Link to ="maindish"smooth={true} duration={2000}> Main Dish </Link></li>
+                <li><Link to ="drinks"smooth={true} duration={2000}> Drinks </Link></li>
+                <li><Link to ="snacks"smooth={true} duration={2000}> Snacks </Link></li>
+                <li><Link to ="about"smooth={true} duration={2000}> Opening </Link></li>
                 <li><Link to ="contact"smooth={true} duration={2000}> Contact </Link></li>
-                <li><Link to ="drink"smooth={true} duration={2000}> Drinks </Link></li>
+               
             </ul>
            
 

@@ -4,7 +4,7 @@ export default function Contacts() {
     return (
         <div id='contact'>
 
-            <h1> Book your table</h1>
+            <h1> Contact </h1>
             <form>
 
                 <input type='text'placeholder='Full Name'/>
