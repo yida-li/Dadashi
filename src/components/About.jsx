@@ -6,9 +6,9 @@ export default function About() {
             <div className ='about-text'>
 
             <h1> Upcoming events</h1>
-            <p> Official Opening: Friday September 15 2021</p>
+            <p> Official Opening: Friday September 22 2021</p>
 
-            <button> 5:30 pm - 5:30 am </button>
+            <button> 5:30 pm - 2:30 am </button>
             </div>
             <div className='about-image'>
                 <img src={yid} alt=''/>

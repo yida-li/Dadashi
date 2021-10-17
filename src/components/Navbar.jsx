@@ -35,12 +35,12 @@ export default function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><Link to ="main" smooth={true} duration={2000}> Header  </Link></li>
+                
                 <li><Link to ="maindish"smooth={true} duration={2000}> Main Dish </Link></li>
                 <li><Link to ="drinks"smooth={true} duration={2000}> Drinks </Link></li>
                 <li><Link to ="snacks"smooth={true} duration={2000}> Snacks </Link></li>
                 <li><Link to ="about"smooth={true} duration={2000}> Opening </Link></li>
-                <li><Link to ="contact"smooth={true} duration={2000}> Contact </Link></li>
+                <li><Link to ="about2"smooth={true} duration={2000}> Location </Link></li>
                
             </ul>
            

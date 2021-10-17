@@ -2,7 +2,7 @@ import React ,{ useState , useEffect} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import  PropagateLoader from 'react-spinners/PropagateLoader';
-import { MoonLoader, PulseLoader, PuffLoader } from 'react-spinners';
+import { MoonLoader, PulseLoader, PuffLoader, RingLoader, FadeLoader } from 'react-spinners';
 import { css, jsx } from '@emotion/react'
 import Header from './components/Header';
 import HeaderMore from './components/HeaderMore';
@@ -14,6 +14,7 @@ import About from './components/About';
 import Drinks from './components/Drinks';
 import Snacks from './components/Snacks';
 import Ender from './components/Ender';
+import Address from './components/Address';
 
 
 function App() {
@@ -43,12 +44,26 @@ function App() {
         color: ${color};
       }
     `}>
-                <PuffLoader color={"lime"}
+          <PuffLoader color={"crimson"}
+      loading ={loading}
+      speedMultiplier= {0.2}
+      size={200}
+      css={css}/>
+                <PuffLoader color={"black"}
       loading ={loading}
       speedMultiplier= {0.5}
       size={400}
       css={css}/>
-      
+       <PuffLoader color={"crimson"}
+      loading ={loading}
+      speedMultiplier= {1.0}
+      size={700}
+      css={css}/>
+       <PuffLoader color={"black"}
+      loading ={loading}
+      speedMultiplier= {1.5}
+      size={900}
+      css={css}/>
         </div>
         
 
@@ -64,7 +79,7 @@ function App() {
   
      <Ender/>
       <About/>
-    
+    <Address/>
         </>
     }
     </div>
