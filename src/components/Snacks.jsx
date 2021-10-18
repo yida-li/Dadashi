@@ -6,14 +6,15 @@ import pimage3 from '../images/a3.jpg'
 import pimage4 from '../images/a4.jpg'
 export default function Snacks() {
     return (
-        <div id= 'snacks'>
-            <h1>Choose a Appetizer</h1>
+        <div id= 'snacks'><div className="App"><h1>Choose a Appetizer</h1></div>
+          
         <div className='a-container'>
         <SnackBox image={pimage1} title="North Star"/>
         <SnackBox image={pimage2} title="Eastern "/>
         <SnackBox image={pimage3} title="tofu fries"/>
         <SnackBox image={pimage4} title="fish stuff"/>
-
+        <SnackBox image={pimage2} title="Eastern "/>
+        <SnackBox image={pimage3} title="tofu fries"/>
         </div>
 
         </div>

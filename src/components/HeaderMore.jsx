@@ -7,9 +7,7 @@ export default function HeaderMore() {
 
       
             <div className='header-btns'>
-                <a href='#' className='header-btn'>
-                    Come
-                </a>
+
                 </div>
             </div>
 

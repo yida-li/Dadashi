@@ -6,11 +6,15 @@ import pimage2 from '../images/drink2.png'
 export default function Drinks() {
     return (
         <div id= 'drinks'>
-            <h1>Choose a Drink</h1>
+            <div className="App"><h1>Choose a Drink</h1></div>
+            
         <div className='a-container'>
         <DrinkBox image={pimage1} title="CrayCray"/>
         <DrinkBox image={pimage2} title="walmart tomato juice"/>
-
+        <DrinkBox image={pimage2} title="walmart tomato juice"/>
+        <DrinkBox image={pimage2} title="walmart tomato juice"/>
+        <DrinkBox image={pimage2} title="walmart tomato juice"/>
+        <DrinkBox image={pimage2} title="walmart tomato juice"/>
         </div>
 
         </div>

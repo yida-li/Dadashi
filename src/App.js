@@ -1,9 +1,9 @@
 import React ,{ useState , useEffect} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import  PropagateLoader from 'react-spinners/PropagateLoader';
-import { MoonLoader, PulseLoader, PuffLoader, RingLoader, FadeLoader } from 'react-spinners';
-import { css, jsx } from '@emotion/react'
+
+import { PuffLoader} from 'react-spinners';
+import { css} from '@emotion/react'
 import Header from './components/Header';
 import HeaderMore from './components/HeaderMore';
 
@@ -30,7 +30,7 @@ function App() {
   },[])
   
   return (
-    <div className="App">
+    <div>
     
     {
       loading ?
@@ -41,9 +41,7 @@ function App() {
       font-size: 100px;
       border-radius: 4px;
       &:hover {
-        color: ${color};
-      }
-    `}>
+        color: ${color};}`}>
           <PuffLoader color={"crimson"}
       loading ={loading}
       speedMultiplier= {0.2}
@@ -62,8 +60,24 @@ function App() {
        <PuffLoader color={"black"}
       loading ={loading}
       speedMultiplier= {1.5}
-      size={900}
+      size={901}
       css={css}/>
+       <PuffLoader color={"crimson"}
+      loading ={loading}
+      speedMultiplier= {2.0}
+      size={10}
+      />
+             <PuffLoader color={"black"}
+      loading ={loading}
+      speedMultiplier= {1.5}
+      size={40}
+      />
+           <PuffLoader color={"crimson"}
+      loading ={loading}
+      speedMultiplier= {1.0}
+      size={80}
+      />
+
         </div>
         
 
