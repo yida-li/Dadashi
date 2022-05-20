@@ -15,6 +15,10 @@ import Drinks from './components/Drinks';
 import Snacks from './components/Snacks';
 import Ender from './components/Ender';
 import Address from './components/Address';
+import Stew from './components/Stew';
+import Pot from './components/Pot';
+import Ramen from './components/Ramen';
+import Contacts from './components/Contacts';
 
 
 function App() {
@@ -87,6 +91,10 @@ function App() {
       <Navbar/>
      
      <Header/> <HeaderMore/>
+     <Pot/>
+      
+     <Stew/>
+     <Ramen></Ramen>
      <Products/>
      <Drinks/>
      <Snacks/>
@@ -94,6 +102,7 @@ function App() {
      <Ender/>
       <About/>
     <Address/>
+    <Contacts/>
         </>
     }
     </div>

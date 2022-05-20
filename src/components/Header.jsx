@@ -6,7 +6,7 @@ export default function Header() {
             <div className='header-heading'>
 
     
-            <h1> <span>DA</span>DA<br/>SHI</h1>
+            <h1> <span2>DA</span2><span>DA</span><br/>SHI</h1>
            
 
      

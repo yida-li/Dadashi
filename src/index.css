@@ -100,14 +100,19 @@ nav .menu-btn,
   font-family: 'Montserrat';
   width: 900px;
   position: absolute;
-  left: 25%;
+  left: 55%;
   top: 55%;
   text-align: left;
   transform: translate(-25%, -55%);
 }
 .header-heading span {
   font-family: 'Alfa Slab One';
-  color: #bf2222;
+  color: #f02d4d;
+  border-bottom: 2px solid #3d2514;
+}
+.header-heading span2 {
+  font-family: 'Alfa Slab One';
+  color: #131414;
   border-bottom: 2px solid #3d2514;
 }
 .header-heading .details {
@@ -126,7 +131,7 @@ nav .menu-btn,
   font-size: 4rem;
   margin: 0px;
   letter-spacing: 2px;
-  color: #3d2514;
+  color: #131212;
 }
 .header-btns {
   display: flex;
@@ -310,7 +315,7 @@ nav .menu-btn,
 
 #contact {
   margin-top: 120px;
-  background-image: url(./images/footer.png);
+
   width: 100%;
   display: flex;
   justify-content: center;

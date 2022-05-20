@@ -5,10 +5,10 @@ export default function About() {
         <div id ='about'>
             <div className ='about-text'>
 
-            <h1> Upcoming events</h1>
-            <p> Official Opening: Friday September 22 2021</p>
+            <h1> Events</h1>
+            <p> Opening Hours: Friday-Saturday </p>
 
-            <button> 5:30 pm - 2:30 am </button>
+            <button> 7:30 pm - 2:30 am </button>
             </div>
             <div className='about-image'>
                 <img src={yid} alt=''/>
