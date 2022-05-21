@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fffba9be.chunk.css",
+    "main.js": "/static/js/main.c13eacf8.chunk.js",
+    "main.js.map": "/static/js/main.c13eacf8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.38ffb877.js",
+    "runtime-main.js.map": "/static/js/runtime-main.38ffb877.js.map",
+    "static/js/2.f7915e07.chunk.js": "/static/js/2.f7915e07.chunk.js",
+    "static/js/2.f7915e07.chunk.js.map": "/static/js/2.f7915e07.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fffba9be.chunk.css.map": "/static/css/main.fffba9be.chunk.css.map",
+    "static/js/2.f7915e07.chunk.js.LICENSE.txt": "/static/js/2.f7915e07.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/front.7f3f3aca.jpg",
+    "static/media/book.168ed9b9.jpg": "/static/media/book.168ed9b9.jpg",
+    "static/media/melon.07422185.png": "/static/media/melon.07422185.png",
+    "static/media/store.75162a80.png": "/static/media/store.75162a80.png",
+    "static/media/wings.80ba5188.jpg": "/static/media/wings.80ba5188.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38ffb877.js",
+    "static/js/2.f7915e07.chunk.js",
+    "static/css/main.fffba9be.chunk.css",
+    "static/js/main.c13eacf8.chunk.js"
+  ]
+}

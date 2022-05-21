@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { Button, Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import styled from '@emotion/styled'
 export default function Navbar() {
