@@ -6,7 +6,7 @@ export default function About() {
             <div className ='about-text'>
 
             <h1> Upcoming events</h1>
-            <p> Official Opening: Friday September 22 2021</p>
+            <p> Halloween : Saturday October 30 2021</p>
 
             <button> 5:30 pm - 2:30 am </button>
             </div>
