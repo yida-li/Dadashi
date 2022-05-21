@@ -5,8 +5,10 @@ export default function About() {
         <div id ='about'>
             <div className ='about-text'>
 
+
             <h1> Events</h1>
             <p> Opening Hours: Friday-Saturday </p>
+
 
             <button> 7:30 pm - 2:30 am </button>
             </div>

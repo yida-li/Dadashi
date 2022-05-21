@@ -1,14 +1,17 @@
 import React from 'react'
 import Productionbox from './Productionbox'
+
 import pimage1 from '../images/back.jpg'
 import pimage2 from '../images/back.jpg'
 import pimage3 from '../images/back.jpg'
+
 export default function Products() {
     return (
         <div id= 'maindish'>
             <div className="App"> <h1>Traditional Korean</h1></div>
             
         <div className='a-container'>
+
         <Productionbox image={pimage1} title="Beef Japchae"/>
         <Productionbox image={pimage2} title="Vegetable Japchae"/>
         <Productionbox image={pimage2} title="Beef Bibimbap"/>
@@ -56,6 +59,7 @@ export default function Products() {
 <Productionbox image={pimage1} title="Bulgogi Tteok Poutine"/>
 <Productionbox image={pimage1} title="Cheese Booldak Poutine"/>
 </div>
+
 
 
         </div>
