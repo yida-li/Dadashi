@@ -30,5 +30,7 @@ client-list.txt
 
 # deploy list
 deploy.txt
-# Local Netlify folder
-.netlify
+# Local Firebase folder
+.firebase
+#build
+build

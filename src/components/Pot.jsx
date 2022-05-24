@@ -1,7 +1,7 @@
 import React from 'react'
 import PotBox from './PotBox'
 import pimage1 from '../images/wings.jpg'
-import pimage2 from '../images/wings.jpg'
+import pimage2 from '../images/potatopancake.jpg'
 import pimage3 from '../images/wings.jpg'
 import pimage4 from '../images/wings.jpg'
 export default function Pot() {

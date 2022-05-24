@@ -1,9 +1,9 @@
 import React from 'react'
 import RamenBox from './RamenBox'
-import pimage1 from '../images/wings.jpg'
-import pimage2 from '../images/wings.jpg'
-import pimage3 from '../images/wings.jpg'
-import pimage4 from '../images/wings.jpg'
+import pimage1 from '../images/theokboki.jpg'
+import pimage2 from '../images/theokboki.jpg'
+import pimage3 from '../images/theokboki.jpg'
+import pimage4 from '../images/theokboki.jpg'
 export default function Ramen() {
     return (
         <div id= 'snacks'><div className="App"><h1>Tteokbokki Mix</h1></div>
