@@ -1,3 +1,6 @@
-# Dadashi
+# Dadashi 
 
-really just manipulating the google SEO indexing or least trying to understand the algorithm through trial and error and testing, besides that heres the current deployed website: https://dadashi.netlify.app/
+Old version deployed on netlify: https://dadashi.netlify.app/
+
+
+New version deployed on firebase: https://dada-4274c.firebaseapp.com/
